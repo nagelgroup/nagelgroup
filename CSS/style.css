@@ -42,10 +42,18 @@ li {
 	text-transform: uppercase;
 }
 
-span {
+.dist {
 	text-transform: uppercase;
 	position: absolute;
 	right: 20px;
+}
+.error {
+	text-align: center;
+	display: none;
+	color: rgba(0,0,0,.5);
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
 }
 
 i {
