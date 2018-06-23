@@ -26,26 +26,14 @@
 }
 b {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 17px;
 }
 li {
 	display: block;
-	/*position: relative;*/
 	width: 95%;
 	height: 40px;
 	padding-left: 20px;
 	margin: auto;
 	line-height: 40px;
-	/*text-transform: uppercase;*/
 	border-bottom: 1px solid rgb(0,0,0,.5);
 }
-
-/*li::after {
-	position: absolute;
-	content: '';
-	display: block;
-	height: 1px;
-	width: 100%;
-	background-color: rgba(0,0,0,.6);
-	bottom: 1px;
-}*/
