@@ -83,6 +83,6 @@ li:nth-child(2n){
 @media (max-height: 800px){
 	.wrapper {
 
-	background-position: center 50%;
+	background-position: center 70%;
 	}
 }
