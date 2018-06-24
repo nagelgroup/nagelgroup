@@ -36,3 +36,14 @@ search.addEventListener('keyup', event => {
 
 	});
 });
+
+let header = document.querySelector('.header');
+
+search.addEventListener('focus', event => {
+	header.className = 'header header_active';
+})
+
+search.addEventListener('blur', event => {
+	if(container.innerHTML == '')
+		header.className = 'header';
+})
