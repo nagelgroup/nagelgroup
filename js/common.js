@@ -48,7 +48,9 @@ search.addEventListener('focus', event => {
 search.addEventListener('blur', event => {
 	if(container.innerHTML == ''){
 		header.className = 'header';
-	wrapper.style.opacity = '1';	
+		wrapper.style.opacity = '1';
+		search.value = '';
+		error.style.display = 'none';
 	}
 		
 })
