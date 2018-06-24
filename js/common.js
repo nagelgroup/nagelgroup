@@ -38,12 +38,17 @@ search.addEventListener('keyup', event => {
 });
 
 let header = document.querySelector('.header');
+let wrapper = document.querySelector('.wrapper_bg');
 
 search.addEventListener('focus', event => {
 	header.className = 'header header_active';
+	wrapper.style.opacity = '0';
 })
 
 search.addEventListener('blur', event => {
-	if(container.innerHTML == '')
+	if(container.innerHTML == ''){
 		header.className = 'header';
+	wrapper.style.opacity = '1';	
+	}
+		
 })
