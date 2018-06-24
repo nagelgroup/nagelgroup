@@ -79,3 +79,10 @@ li:nth-child(2n){
 		background-size: 80%;
 	}
 }
+
+@media (max-height: 800px){
+	.wrapper {
+		
+	background-position: center 30%;
+	}
+}
