@@ -7,7 +7,7 @@
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: 50%;
-	background-position: center 30%;
+	background-position: center 200px;
 }
 
 .header {
@@ -82,7 +82,7 @@ li:nth-child(2n){
 
 @media (max-height: 800px){
 	.wrapper {
-		
-	background-position: center 30%;
+
+	background-position: center 50%;
 	}
 }
