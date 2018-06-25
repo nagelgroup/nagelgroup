@@ -16,50 +16,48 @@
 	background-size: 80%;
 	background-position: center 20%;
 	z-index: -1;
-	transition: .25s;
+	transition: .15s;
 }
 
 .header {
+	position: relative;
 	width: 90%;
-	height: 70px;
+	height: 37px;
 	background-color: #0063af;
 	margin: 40% auto 0;
-	padding-top: 17px;
-	transition: .3s;
+	padding-top: 0;
+	transition: .2s;
 	background-color: rgba(255,255,255,.0);		
 }
 
 .header_active {
-	position: fixed;
+	padding-top: 15px;
+	height: 70px;
 	width: 100%;
 	background-color: #0063af;
-	margin-top: -80px;
+	margin: -80px auto 0;
 	box-shadow: 0 0 5px 3px rgba(0,0,0,.5);
 	z-index: 999;
 }
 
-.header_active .search {
-	display: block;
-	height: 66%;
-	width: 90%;
-	margin: auto;
-	border: none;
-	outline: none;
-	padding: 0 15px;
-	border-radius: 2px;
-}
-
 .header .search {
 	display: block;
-	height: 66%;d
-	width: 150%;
+	height: 37px;
+	width: 70%;
 	margin: auto;
 	border: 1px solid rgba(0,0,0,.5);
 	outline: none;
 	padding: 0 15px;
 	border-radius: 2px;
-
+	transition: .2s;
 }
+
+
+.header_active .search {
+	width: 93%;
+	border: none;
+}
+
 
 b {
 	font-weight: bold;
@@ -98,6 +96,7 @@ li:nth-child(2n){
 .ilosc {
 	font-weight: bold;
 	font-size: 40px;
+	color: gray;
 	display: block;
 	text-align: center;
 }
