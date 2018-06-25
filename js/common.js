@@ -38,12 +38,12 @@ search.addEventListener('keyup', event => {
 });
 
 let header = document.querySelector('.header');
-let wrapper = document.querySelector('.wrapper_bg');
+let wrapper_bg = document.querySelector('.wrapper_bg');
 
 search.addEventListener('focus', event => {
 	header.className = 'header header_active';
-	wrapper.style.opacity = '0';
-	setTimeout(e => header.style.position = 'fixed', 300);
+	wrapper_bg.style.opacity = '0';
+	setTimeout(e => header.style.position = 'fixed', 200);
 });
 
 search.addEventListener('blur', event => {
@@ -51,7 +51,7 @@ search.addEventListener('blur', event => {
 		header.className = 'header';
 		header.style.position = 'static';
 		
-		setTimeout(E => wrapper.style.opacity = '1', 250);
+		setTimeout(E => wrapper_bg.style.opacity = '1', 130);
 
 		search.value = '';
 		error.style.display = 'none';
